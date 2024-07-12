@@ -1,0 +1,43 @@
+# Waiter Tips Prediction
+
+## Project Overview
+This project aims to predict the tips given to waiters based on various factors such as the total bill, gender of the person paying, smoking status, day of the week, time of the meal, and the number of people at the table. We use a linear regression model for the prediction.
+
+## Dataset
+The dataset used for this project contains the following features:
+- `total_bill`: Total bill in dollars including tax
+- `tip`: Tip given to waiter in dollars
+- `sex`: Gender of the person paying the bill
+- `smoker`: Whether the person smoked or not
+- `day`: Day of the week
+- `time`: Lunch or dinner
+- `size`: Number of people at a table
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Plotly
+- Scikit-learn
+
+## Steps
+1. **Data Loading:** Load the dataset.
+2. **Data Analysis and Visualization:** Visualize the relationships between tips and other features using scatter plots and pie charts.
+3. **Data Preprocessing:** Transform categorical variables into numerical values.
+4. **Model Training:** Split the data into training and test sets and train a linear regression model.
+5. **Model Prediction:** Use the trained model to predict tips based on given inputs.
+6. **Evaluation:** Test the model performance using the test data.
+
+## Usage
+1. Ensure you have the necessary Python libraries installed:
+    ```bash
+    pip install pandas numpy plotly scikit-learn
+    ```
+2. Run the Python script:
+    ```bash
+    python waiter_tips_prediction.py
+    ```
+3. The script will print the predicted tip for the given input features.
+
+## Author
+Kishore Sakthivel

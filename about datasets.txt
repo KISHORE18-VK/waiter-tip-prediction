@@ -1,0 +1,67 @@
+Context
+One waiter recorded information about each tip he received over a period of a few months working in one restaurant. In all he recorded 244 tips.
+
+Acknowledgements
+The data was reported in a collection of case studies for business statistics.
+
+Bryant, P. G. and Smith, M (1995) Practical Data Analysis: Case Studies in Business Statistics. Homewood, IL: Richard D. Irwin Publishing
+
+The dataset is also available through the Python package Seaborn.
+
+Hint
+Of course, this database has additional columns compared to other tips datasets.
+
+Dataset info
+RangeIndex: 244 entries, 0 to 243
+
+Data columns (total 11 columns):
+
+# Column Non-Null Count Dtype
+
+--- ------ -------------- -----
+
+0 total_bill 244 non-null float64
+
+1 tip 244 non-null float64
+
+2 sex 244 non-null object
+
+3 smoker 244 non-null object
+
+4 day 244 non-null object
+
+5 time 244 non-null object
+
+6 size 244 non-null int64
+
+7 price_per_person 244 non-null float64
+
+8 Payer Name 244 non-null object
+
+9 CC Number 244 non-null int64
+
+10 Payment ID 244 non-null object
+
+dtypes: float64(3), int64(2), object(6)
+
+Some details
+total_bill
+a numeric vector, the bill amount (dollars)
+
+tip
+a numeric vector, the tip amount (dollars)
+
+sex
+a factor with levels Female Male, gender of the payer of the bill
+
+Smoker
+a factor with levels No Yes, whether the party included smokers
+
+day
+a factor with levels Friday Saturday Sunday Thursday, day of the week
+
+time
+a factor with levels Day Night, rough time of day
+
+size
+a numeric vector, number of ppartyeople in
